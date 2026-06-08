@@ -2,6 +2,9 @@ sentence-transformers==3.4.1
 chromadb>=0.6.0
 groq==0.15.0
 python-dotenv==1.0.1
+# torch 2.2.2 (pulled in by sentence-transformers) is not compatible with
+# NumPy 2.x — pin to the 1.x line or embedding fails at runtime.
+numpy<2
 
 # Query interface — add whichever you use for Milestone 5:
 # gradio>=6.9.0
