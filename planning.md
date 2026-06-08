@@ -43,11 +43,16 @@ This project is an unofficial guide to UIUC Industrial Engineering courses and p
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** 600 characters
 
-**Overlap:**
+**Overlap:** 100 characters
 
 **Reasoning:**
+A 300 character may be too small because professor's review only makes sense if it has professor's name,
+course number, rating and difficulty. So if there is just a review without any context of who it is
+referring to, it wouldn't make sense. A 600-character window is more likely to keep the professor/course 
+metadata with the review text, while 100 characters of overlap helps when a review or course description 
+crosses a boundary.
 
 ---
 
@@ -59,11 +64,16 @@ This project is an unofficial guide to UIUC Industrial Engineering courses and p
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** all-MiniLM-L6-v2 via sentence-transformers
 
-**Top-k:**
+**Top-k:** 4 or 5
 
 **Production tradeoff reflection:**
+I would choose top-k = 5 for this domain because professor/course questions may need both:
+one course description chunk
+one professor review chunk
+one mapping chunk
+Too few chunks could miss the professor-review connection. Too many chunks could bring noisy reviews from unrelated professors or courses.
 
 ---
 
@@ -76,11 +86,11 @@ This project is an unofficial guide to UIUC Industrial Engineering courses and p
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What is IE 310 about, and what prerequisite does it require? | IE 310 covers deterministic optimization topics such as simplex, duality, sensitivity analysis, transportation/assignment problems, network optimization, dynamic programming, nonlinear optimization, and discrete optimization. It requires credit or concurrent registration in MATH 257 or MATH 415. |
+| 2 | Which IE courses involve programming? | IE 405 involves C++, algorithm design, and SQL; IE 421 expects programming/data structures knowledge; IE 434 involves PyTorch; IE 517 uses Python, pandas, NumPy, and scikit-learn. |
+| 3 | What do students say about Chrysafis Vogiatzis for IE 300? | Reviews are generally very positive; students describe him as caring, accessible, helpful, and strong at explaining concepts, though IE 300 can still be challenging. |
+| 4 | Is IE 421 project-heavy? | Yes, reviews for David Lariviere’s IE 421 mention a semester-long group project and that the grade is mostly or almost entirely based on project performance. |
+| 5 | What do students say about Harrison Kim’s IE 431 workload? | Reviews mention attendance, weekly review, case studies, quizzes, exams, and that students should keep up because the course can require significant effort. |
 
 ---
 
@@ -90,9 +100,11 @@ This project is an unofficial guide to UIUC Industrial Engineering courses and p
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Professor reviews are subjective and sometimes emotional, so the system should frame answers as student-reported feedback rather than objective fact.
 
-2.
+2. If chunks are too small, reviews may be separated from professor names, course numbers, or ratings. That could make retrieval return useful text without enough context.
+
+3. Some questions require information from multiple documents, such as combining official course descriptions with professor reviews.
 
 ---
 
@@ -103,6 +115,8 @@ This project is an unofficial guide to UIUC Industrial Engineering courses and p
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+![Architecture diagram](Architecture.png)
 
 ---
 
