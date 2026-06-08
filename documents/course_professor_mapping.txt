@@ -1,0 +1,158 @@
+UIUC Industrial Engineering Course to Professor Review Mapping
+
+SOURCE NOTE:
+This document connects official UIUC IE course descriptions with available professor review data. Professor review data is based on public student reviews and should be treated as subjective opinion, not verified fact.
+
+==================================================
+Course: IE 300
+Course Title: Analysis of Data
+Official Description:
+Nature of probabilistic models for observed data; discrete and continuous distribution function models; inferences on universe parameters based on sample values; control charts, acceptance sampling, and measurement theory.
+
+Prerequisite:
+MATH 241
+
+Professors in review data:
+Chrysafis Vogiatzis
+Carolyn Beck
+
+Related review courses:
+IE300
+
+==================================================
+Course: IE 310
+Course Title: Deterministic Models in Optimization
+Official Description:
+Linear Optimization - Simplex method, duality, and sensitivity analysis, Transportation and Assignment Problems, Network Optimization Models, Dynamic Programming, Nonlinear optimization, and Discrete optimization.
+
+Prerequisite:
+Credit or concurrent registration in MATH 257 or MATH 415.
+
+Professors in review data:
+Karthekeyan Chandrasekaran
+
+Related review courses:
+IE310
+
+==================================================
+Course: IE 360
+Course Title: Facilities Planning and Design
+Official Description:
+Facility planning, plant layout design, and materials handling analysis; determination of facilities requirements, site selection, materials flow, use of analytical and computerized techniques including simulation, and applications to areas such as manufacturing, warehousing, and office planning.
+
+Prerequisite:
+Credit or concurrent enrollment in IE 310.
+
+Professors in review data:
+Lavanya Marla
+
+Related review courses:
+IE360
+
+==================================================
+Course: IE 405
+Course Title: Computing for ISE
+Official Description:
+Introduces students to algorithm design, computer programming in C++, and database SQL queries. Provides the fundamental methods, concepts and principles of these topics to give students enough breadth to use these techniques in their jobs and to prepare them to pursue advanced topics in these areas. There will be weekly programming assignments to implement algorithms and SQL covered in the class.
+
+Prerequisite:
+CS 101 or CS 124 or equivalent.
+
+Professors in review data:
+Jugal Garg
+
+Related review courses:
+IE405
+
+==================================================
+Course: IE 420
+Course Title: Financial Engineering
+Official Description:
+Introduction to the theory and practice of financial engineering: basics of derivative securities and risk management; Markowitz portfolio theory and capital asset pricing model; interest rate and bonds; forward and futures contracts, hedging using futures contracts; option contracts and arbitrage relationship; binomial model, no-arbitrage pricing, risk-neutral pricing, and American options pricing; Brownian motion, Black-Scholes-Merton model, delta hedging, Greek letters, implied volatility, and volatility smile.
+
+Prerequisite:
+IE 300
+
+Professors in review data:
+David Lariviere
+
+Related review courses:
+IE420
+
+==================================================
+Course: IE 421
+Course Title: High Frequency Trading Technology
+Official Description:
+Teaches students both the core concepts and underlying mechanics of high frequency trading, including how automated finance systems process market data and execute trades. The course introduces modern automated finance and technologies that power trading across stocks, bonds, options, futures, currencies, crypto, and related markets.
+
+Prerequisite:
+Students should have an understanding of programming and data structures and be proficient in coding in at least one programming language.
+
+Professors in review data:
+David Lariviere
+
+Related review courses:
+IE421
+
+==================================================
+Course: IE 431
+Course Title: Design for Six Sigma
+Official Description:
+Quality Engineering principles and the Six Sigma Define-Measure-Analyze-Improve-Control process. Application of statistical process control, designed experiments, and measurement systems analysis to cases of quality and productivity improvement.
+
+Prerequisite:
+IE 300
+
+Professors in review data:
+Harrison Kim
+
+Related review courses:
+IE431
+
+==================================================
+Course: IE 498
+Course Title: Special Topics
+Official Description:
+Subject offerings of new and developing areas of knowledge in industrial engineering intended to augment the existing curriculum. Topics vary.
+
+Prerequisite:
+See Class Schedule or departmental course information for topics and prerequisites.
+
+Professors in review data:
+Chrysafis Vogiatzis
+Lavanya Marla
+Jugal Garg
+
+Related review courses:
+IE398
+IE498
+
+==================================================
+Course: IE 523
+Course Title: Financial Computing
+Official Description:
+Review of C++ programming: structures, classes, I/O, C++ standard libraries, recursion. Linear Algebra tools and MILP solvers in C++. Computational aspects of probability, statistics and simulation in C++. Methods include root-finding, Taylor's Expansion, FFTs, Dynamic Programming, and Monte Carlo Methods.
+
+Prerequisite:
+CS 225
+
+Professors in review data:
+R.S. Sreenivas
+
+Related review courses:
+IE523
+
+==================================================
+Course: IE 529
+Course Title: Stats of Big Data & Clustering
+Official Description:
+Covers foundational topics in data science including parametric and non-parametric methods, hypothesis testing, regression, classification, dimension reduction, regularization, unsupervised and semi-supervised learning, and case studies.
+
+Prerequisite:
+MATH 416 and IE 300 or equivalent.
+
+Professors in review data:
+Carolyn Beck
+
+Related review courses:
+IE529

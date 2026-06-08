@@ -9,27 +9,30 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+This project is an unofficial guide to UIUC Industrial Engineering courses and professors. It combines official course descriptions with structured student professor reviews so students can ask questions about course content, prerequisites, workload, teaching style, difficulty, and student experiences in one place. This knowledge is hard to find through official channels because course catalogs explain topics and prerequisites, but they do not capture student-reported experiences like grading style, lecture clarity, workload, accessibility, or whether a course feels project-heavy.
 
 ---
 
 ## Documents
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | IE course descriptions | Official-style UIUC Industrial Engineering course descriptions, credits, prerequisites, and topics. | `docs/ie_courses_desc.txt` |
+| 2 | Professor reviews dataset | Structured public student reviews for UIUC Industrial Engineering and related professors. | `docs/uiuc_ie_professor_reviews.txt` |
+| 3 | Course-professor mapping | Connects IE courses to professors with available review data. | `docs/course_professor_mapping.txt` |
+| 4 | Source inventory | List of source URLs and local files used to build the corpus. | `docs/source_inventory.txt` |
+| 5 | UIUC Course Catalog — IE Industrial Engineering | Official UIUC catalog page for Industrial Engineering courses. | https://catalog.illinois.edu/courses-of-instruction/ie/ |
+| 6 | UIUC Course Explorer — IE Fall 2026 | UIUC Course Explorer schedule/listing for Industrial Engineering courses. | https://courses.illinois.edu/schedule/2026/fall/IE |
+| 7 | Rate My Professors — Chrysafis Vogiatzis | Student reviews for Chrysafis Vogiatzis, especially IE 300 and IE 398. | https://www.ratemyprofessors.com/professor/2537290 |
+| 8 | Rate My Professors — Harrison Kim | Student reviews for Harrison Kim, especially IE 431 and GE 310. | https://www.ratemyprofessors.com/professor/1887905 |
+| 9 | Rate My Professors — R.S. Sreenivas | Student reviews for R.S. Sreenivas, including GE 424, IE 523, and GE 320. | https://www.ratemyprofessors.com/professor/778643 |
+| 10 | Rate My Professors — Karthekeyan Chandrasekaran | Student reviews for Karthekeyan Chandrasekaran, especially IE 310. | https://www.ratemyprofessors.com/professor/2440361 |
+| 11 | Rate My Professors — Lavanya Marla | Student reviews for Lavanya Marla, especially IE 360 and IE 498. | https://www.ratemyprofessors.com/professor/1836373 |
+| 12 | Rate My Professors — David Lariviere | Student reviews for David Lariviere, especially IE 420 and IE 421. | https://www.ratemyprofessors.com/professor/2912372 |
+| 13 | Rate My Professors — Carolyn Beck | Student reviews for Carolyn Beck, including IE 300, SE 424, GE 424, and IE 529. | https://www.ratemyprofessors.com/professor/1836374 |
+| 14 | Rate My Professors — Jugal Garg | Student reviews for Jugal Garg, especially IE 405 and IE 498. | https://www.ratemyprofessors.com/professor/2266447 |
+| 15 | Rate My Professors — Molly Goldstein | Student reviews for Molly Goldstein, especially SE 101. | https://www.ratemyprofessors.com/professor/2412305 |
+| 16 | Rate My Professors — Richard Sowers | Student reviews for Richard Sowers, especially MATH 241. | https://www.ratemyprofessors.com/professor/257568 |
 
 ---
 

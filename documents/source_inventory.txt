@@ -1,0 +1,60 @@
+Domain: Unofficial Guide to UIUC Industrial Engineering Courses and Professors
+
+Source inventory:
+
+1. Local file: docs/ie_courses_desc.txt
+   Purpose: Official-style IE course descriptions, credits, prerequisites, and topics.
+
+2. Local file: docs/uiuc_ie_professor_reviews.txt
+   Purpose: Structured public student reviews for UIUC IE / Engineering professors.
+
+3. Local file: docs/course_professor_mapping.txt
+   Purpose: Connects courses to professors with available review data.
+
+4. UIUC Course Catalog — IE Industrial Engineering
+   URL: https://catalog.illinois.edu/courses-of-instruction/ie/
+   Purpose: Official course catalog descriptions for IE courses.
+
+5. UIUC Course Explorer — IE Fall 2026
+   URL: https://courses.illinois.edu/schedule/2026/fall/IE
+   Purpose: Course schedule and course list for Industrial Engineering.
+
+6. Rate My Professors — Chrysafis Vogiatzis
+   URL: https://www.ratemyprofessors.com/professor/2537290
+   Purpose: Student reviews for Chrysafis Vogiatzis, especially IE 300 and IE 398.
+
+7. Rate My Professors — Harrison Kim
+   URL: https://www.ratemyprofessors.com/professor/1887905
+   Purpose: Student reviews for Harrison Kim, especially IE 431 and GE 310.
+
+8. Rate My Professors — R.S. Sreenivas
+   URL: https://www.ratemyprofessors.com/professor/778643
+   Purpose: Student reviews for R.S. Sreenivas, including GE 424, IE 523, and GE 320.
+
+9. Rate My Professors — Karthekeyan Chandrasekaran
+   URL: https://www.ratemyprofessors.com/professor/2440361
+   Purpose: Student reviews for Karthekeyan Chandrasekaran, especially IE 310.
+
+10. Rate My Professors — Lavanya Marla
+   URL: https://www.ratemyprofessors.com/professor/1836373
+   Purpose: Student reviews for Lavanya Marla, especially IE 360 and IE 498.
+
+11. Rate My Professors — David Lariviere
+   URL: https://www.ratemyprofessors.com/professor/2912372
+   Purpose: Student reviews for David Lariviere, especially IE 420 and IE 421.
+
+12. Rate My Professors — Carolyn Beck
+   URL: https://www.ratemyprofessors.com/professor/1836374
+   Purpose: Student reviews for Carolyn Beck, including IE 300, SE 424, GE 424, and IE 529.
+
+13. Rate My Professors — Jugal Garg
+   URL: https://www.ratemyprofessors.com/professor/2266447
+   Purpose: Student reviews for Jugal Garg, especially IE 405 and IE 498.
+
+14. Rate My Professors — Molly Goldstein
+   URL: https://www.ratemyprofessors.com/professor/2412305
+   Purpose: Student reviews for Molly Goldstein, especially SE 101.
+
+15. Rate My Professors — Richard Sowers
+   URL: https://www.ratemyprofessors.com/professor/257568
+   Purpose: Student reviews for Richard Sowers, especially MATH 241.
