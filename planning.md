@@ -43,16 +43,13 @@ This project is an unofficial guide to UIUC Industrial Engineering courses and p
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:** 600 characters
+**Chunk size:** Structure-aware chunks, with a 500-character fallback limit for oversized records.
 
-**Overlap:** 100 characters
+**Overlap:** 75 characters only for oversized records that need fallback sliding-window splitting.
+
 
 **Reasoning:**
-A 300 character may be too small because professor's review only makes sense if it has professor's name,
-course number, rating and difficulty. So if there is just a review without any context of who it is
-referring to, it wouldn't make sense. A 600-character window is more likely to keep the professor/course 
-metadata with the review text, while 100 characters of overlap helps when a review or course description 
-crosses a boundary.
+My documents are structured around course records, professor sections, and individual student reviews. A fixed character window sometimes separated professor names or course headers from the review text. I changed the chunking approach to split on natural boundaries first: separator lines, course headers, professor sections, and review blocks. Only records longer than the chunk size fall back to a 500-character / 75-overlap sliding window. This keeps most chunks self-contained while still handling long course descriptions.
 
 ---
 
@@ -133,6 +130,7 @@ Too few chunks could miss the professor-review connection. Too many chunks could
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+
 
 **Milestone 4 — Embedding and retrieval:**
 
